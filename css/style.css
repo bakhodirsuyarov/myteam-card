@@ -45,12 +45,11 @@ body {
   background-color: transparent;
 }
 
-@media only screen and (max-width: 1296px) {
+@media only screen and (max-width: 768px) {
 
-  /* .card-list{ */
-    /* margin-left: 100px;
-    margin-right: 100px;
-  } */
+  .card-item{
+    width: 100%;
+  }
 }
 
 
