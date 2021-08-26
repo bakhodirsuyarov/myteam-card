@@ -23,6 +23,16 @@ body {
   background-color: #004047;
 }
 
+.main{
+  background-image: url(../img/top-circle.png);
+  background-repeat: no-repeat;
+  background-position: calc(50% - 615px)0px;
+}
+
+.title{
+  margin-top: 140px;
+}
+
 .card-list{
   margin-top: 64px;
 }
@@ -49,6 +59,60 @@ body {
 
   .card-item{
     width: 100%;
+  }
+}
+
+@media only screen and (max-width: 1080px) {
+
+  .main{
+    background-position: calc(50% - 540px)0px;
+  }
+
+}
+
+@media only screen and (max-width: 950px) {
+
+  .main{
+    background-position: calc(50% - 475px)0px;
+  }
+
+}
+
+@media only screen and (max-width: 850px) {
+
+  .main{
+    background-position: calc(50% - 425px)0px;
+  }
+
+}
+
+@media only screen and (max-width: 735px) {
+
+  .main{
+    background-position: calc(50% - 368px)0px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+
+  .main{
+    background-position: calc(50% - 300px)0px;
+  }
+
+}
+
+@media only screen and (max-width: 480px) {
+
+  .main{
+    background-position: calc(50% - 239px)0px;
+  }
+
+}
+
+@media only screen and (max-width: 395px) {
+
+  .main{
+    background-position: calc(50% - 210px)0px;
   }
 }
 
