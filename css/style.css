@@ -1,0 +1,79 @@
+html {
+  box-sizing: border-box;
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  background-color: #004047;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+
+.container {
+  width: 100%;
+  max-width: 1316px;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card-list{
+  margin-top: 64px;
+  margin-right: 165px;
+  margin-left: 165px;
+}
+
+.card-item{
+  width: 290px;
+  height: 210px;
+  background-color: #012F34;
+}
+
+.card-title{
+  color: #79C8C7;
+}
+
+.card-button{
+  width: 56px;
+  height: 56px;
+  background-image: url(../img/plus.png);
+  border: none;
+  background-color: transparent;
+}
+
+@media only screen and (max-width: 1296px) {
+
+  .card-list{
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+}
+
+
